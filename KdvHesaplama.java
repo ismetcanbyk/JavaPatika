@@ -10,6 +10,10 @@ public class KdvHesaplama {
         tutar = inp.nextInt();
         kdv = tutar<=1000 ? (tutar*18)/100f : (tutar*8)/100f;
 
-        System.out.println(tutar+kdv);
+
+        System.out.println("\nKdv'siz Tutar : " + tutar);
+        System.out.println("Kdv Miktarı : " + kdv);
+        System.out.println("Toplam Tutar : " + ( tutar+kdv));
+        
     }
 }
