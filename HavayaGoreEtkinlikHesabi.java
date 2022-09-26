@@ -19,6 +19,6 @@ public class HavayaGoreEtkinlikHesabi {
         } else if (sicaklik > 25) {
             System.out.println("Yüzme");
         }
-
+        
     }
 }

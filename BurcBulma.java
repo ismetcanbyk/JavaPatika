@@ -45,99 +45,99 @@ public class BurcBulma {
 		
 		if (month == 4) {
 			if (day >= 1  && day <= 20) {
-			System.out.println("Koç burcusunuz.");
+			System.out.println("\n Koç burcusunuz.");
 			} else if (day > 20 && day <= 30) {
-			System.out.println("Boğa burcusunuz.");
+			System.out.println("\n Boğa burcusunuz.");
 			} else {
-			System.out.println("Doğum tarihinizi doğru girdiğinizden emin olun.");	
+			System.out.println("\n Doğum tarihinizi doğru girdiğinizden emin olun.");	
 			}
 		
 		}
 		
 		if (month == 5) {
 			if (day >= 1  && day <= 21) {
-			System.out.println("Boğa burcusunuz.");
+			System.out.println("\n Boğa burcusunuz.");
 			} else if (day > 21 && day <= 31) {
-			System.out.println("İkizler burcusunuz.");
+			System.out.println("\n İkizler burcusunuz.");
 			} else {
-			System.out.println("Doğum tarihinizi doğru girdiğinizden emin olun.");	
+			System.out.println("\n Doğum tarihinizi doğru girdiğinizden emin olun.");	
 			}
 		
 		}
 		
 		if (month == 6) {
 			if (day >= 1  && day <= 22) {
-			System.out.println("İkizler burcusunuz.");
+			System.out.println("\n İkizler burcusunuz.");
 			} else if (day > 22 && day <= 31) {
-			System.out.println("Yengeç burcusunuz.");
+			System.out.println("\n Yengeç burcusunuz.");
 			} else {
-			System.out.println("Doğum tarihinizi doğru girdiğinizden emin olun.");	
+			System.out.println("\n Doğum tarihinizi doğru girdiğinizden emin olun.");	
 			}
 		
 		}
 		
 		if (month == 7) {
 			if (day >= 1  && day <= 22) {
-			System.out.println("Yengeç burcusunuz.");
+			System.out.println("\n Yengeç burcusunuz.");
 			} else if (day > 22 && day <= 31) {
-			System.out.println("Aslan burcusunuz.");
+			System.out.println("\n Aslan burcusunuz.");
 			} else {
-			System.out.println("Doğum tarihinizi doğru girdiğinizden emin olun.");	
+			System.out.println("\n Doğum tarihinizi doğru girdiğinizden emin olun.");	
 			}
 		
 		}
 		
 		if (month == 8) {
 			if (day >= 1  && day <= 23) {
-			System.out.println("Aslan burcusunuz.");
+			System.out.println("\n Aslan burcusunuz.");
 			} else if (day > 23 && day <= 31) {
-			System.out.println("Başak burcusunuz.");
+			System.out.println("\n Başak burcusunuz.");
 			} else {
-			System.out.println("Doğum tarihinizi doğru girdiğinizden emin olun.");	
+			System.out.println("\n Doğum tarihinizi doğru girdiğinizden emin olun.");	
 			}
 		
 		}
 		
 		if (month == 9) {
 			if (day >= 1  && day <= 22) {
-			System.out.println("Başak burcusunuz.");
+			System.out.println("\n Başak burcusunuz.");
 			} else if (day > 22 && day <= 30) {
-			System.out.println("Terazi burcusunuz.");
+			System.out.println("\n Terazi burcusunuz.");
 			} else {
-			System.out.println("Doğum tarihinizi doğru girdiğinizden emin olun.");	
+			System.out.println("\n Doğum tarihinizi doğru girdiğinizden emin olun.");	
 			}
 		
 		}
 		
 		if (month == 10) {
 			if (day >= 1  && day <= 22) {
-			System.out.println("Terazi burcusunuz.");
+			System.out.println("\n Terazi burcusunuz.");
 			} else if (day > 22 && day <= 31) {
-			System.out.println("Akrep burcusunuz.");
+			System.out.println("\n Akrep burcusunuz.");
 			} else {
-			System.out.println("Doğum tarihinizi doğru girdiğinizden emin olun.");	
+			System.out.println("\n Doğum tarihinizi doğru girdiğinizden emin olun.");	
 			}
 		
 		}
 		
 		if (month == 11) {
 			if (day >= 1  && day <= 21) {
-			System.out.println("Akrep burcusunuz.");
+			System.out.println("\n Akrep burcusunuz.");
 			} else if (day > 21 && day <= 30) {
-			System.out.println("Yay burcusunuz.");
+			System.out.println("\n Yay burcusunuz.");
 			} else {
-			System.out.println("Doğum tarihinizi doğru girdiğinizden emin olun.");	
+			System.out.println("\n Doğum tarihinizi doğru girdiğinizden emin olun.");	
 			}
 		
 		}
 		
 		if (month == 12) {
 			if (day >= 1  && day <= 21) {
-			System.out.println("Yay burcusunuz.");
+			System.out.println("\n Yay burcusunuz.");
 			} else if (day > 21 && day <= 31) {
-			System.out.println("Oğlak burcusunuz.");
+			System.out.println("\n Oğlak burcusunuz.");
 			} else {
-			System.out.println("Doğum tarihinizi doğru girdiğinizden emin olun.");	
+			System.out.println("\n Doğum tarihinizi doğru girdiğinizden emin olun.");	
 			}
 		
 		}
