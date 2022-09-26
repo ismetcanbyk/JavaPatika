@@ -20,9 +20,9 @@ public class ManavKasaProgrami {
         System.out.print("Patlıcan Kaç Kilo ? = ");
         patlıcan = inp.nextDouble();
 
-        toplam = (armut*2.14)+(elma*3.67)+(domates*1.11)+(muz*0.95)+(patlıcan*5);
+        toplam = (armut * 2.14) + (elma * 3.67) + (domates * 1.11) + (muz * 0.95) + (patlıcan * 5);
 
-        System.out.println("Toplam Fiyat : "+toplam);
+        System.out.println("Toplam Fiyat : " + toplam);
 
     }
 }
