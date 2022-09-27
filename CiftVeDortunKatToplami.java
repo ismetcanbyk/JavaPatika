@@ -14,6 +14,6 @@ public class CiftVeDortunKatToplami {
             }
         } while (sayi % 2 == 0);
         
-        System.out.println("Toplam"+toplam);
+        System.out.println("Toplam : "+toplam);
     }
 }
