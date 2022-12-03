@@ -9,9 +9,8 @@ public class Main {
         x = scanner.nextInt();
         y = scanner.nextInt();
         MineSweeper mineSweeper = new MineSweeper(x, y);
-        //mineSweeper.printMineMap();
+       //mineSweeper.printMineMap();
         mineSweeper.run();
         scanner.close();
-        
     }
 }

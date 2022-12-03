@@ -31,7 +31,7 @@ public class DiziFrekans {
 
         for (int i = 0; i < list.length; i++) {
             if (isFind(list, list[i], i)) {
-                System.out.println("\n"+list[i] + " sayısı " + counter(list, list[i]) + " kez tekrar edildi.");
+                System.out.println(list[i] + " sayısı " + counter(list, list[i]) + " kez tekrar edildi.");
             }
         }
     }

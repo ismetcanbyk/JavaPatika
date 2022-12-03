@@ -1,4 +1,3 @@
-package ders;
 
 public class DiziTersCevirme {
     public static void main(String[] args) {

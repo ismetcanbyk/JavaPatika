@@ -1,4 +1,4 @@
-package ders;
+
 import java.util.Scanner;
 
 public class Papatya {

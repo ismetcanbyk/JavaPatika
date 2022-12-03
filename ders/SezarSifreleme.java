@@ -1,4 +1,4 @@
-package ders;
+
 import java.util.Scanner;
 public class SezarSifreleme {
     public static void main(String[] args) {
