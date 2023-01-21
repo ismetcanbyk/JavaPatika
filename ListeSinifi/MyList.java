@@ -56,14 +56,12 @@ public class MyList <T>{
         }
     }
     @Override
-    public String toString() {
-        System.out.print("[");
-        for (T x:
-                list) {
-            if(x != null) System.out.print(x + ",");
-        }
-        System.out.print("]");
-        return "";
+    public String toString(){
+        String elements="";
+        for (T x: list)
+            if(x != null)
+              elements+=x+",";
+        return "["+elements.substring(0, elements.length() > 0 ? elements.length()-1 : 0)+"]";
     }
 
     public T get(int idx) {
@@ -104,13 +102,12 @@ public class MyList <T>{
     }
 
     public int lastIndexOf(T data) {
-        int lastIdx = -1;
-        for (int i = 0; i < this.list.length; i++) {
+        for (int i = this.list.length-1; i >= 0 ; i--) {
             if(data == this.list[i]) {
-                lastIdx = i;
+                return i;
             }
         }
-        return lastIdx;
+        return -1;
     }
     public boolean isEmpty() {
         if (this.size() == 0) return true;
@@ -135,12 +132,7 @@ public class MyList <T>{
     }
 
     public boolean contains(T data) {
-        for (int i = 0; i < this.list.length; i++) {
-            if(data == this.list[i]) {
-                return true;
-            }
-        }
-        return false;
+        return indexOf(data)!=-1;
     }
     public void clear() {
         for (int i = 0; i < this.list.length; i++) {
